@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Jengu_Tech Dashbord",
+  "description": "Tableau de bord de dispatch VTC en temps réel de Jengu_Tech. Assignation de courses aux chauffeurs en service sur une carte interactive animée de la presqu\u0027île de Dakar, fiches de transport, et analyses de performance analytique.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

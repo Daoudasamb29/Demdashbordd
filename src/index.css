@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Tactical Custom Dark overrides for Leaflet Map */
+.leaflet-container {
+  background: #090d16 !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+/* Custom dark style for popup bubble */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #0f172a !important; /* slate-900 */
+  color: #f8fafc !important; /* slate-50 */
+  border: 1px solid #1e293b !important; /* slate-800 */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.72) !important;
+  border-radius: 12px !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup {
+  margin-bottom: 24px !important;
+}
+
+/* Styled leaflet custom zoom buttons to match VTC Command Center styling */
+.leaflet-bar {
+  border: 1px solid #1e293b !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  background-color: #0f172a !important;
+  color: #94a3b8 !important;
+  border-color: #1e293b !important;
+  transition: all 0.2s ease;
+}
+
+.leaflet-bar a:hover {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+/* Custom Leaflet Marker custom positioning stabilization */
+.custom-driver-marker, .custom-neighborhood-marker, .custom-pickup-marker, .custom-dropoff-marker {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Custom subtle scrollbar styling for scrollable containers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+
